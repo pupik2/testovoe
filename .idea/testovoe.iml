@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/application/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/application/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/application/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/application/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/application/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/wb-api-master/application/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/wb-api-master/application/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/wb-api-master/application/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/wb-api-master/application/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/wb-api-master/application/tests" isTestSource="true" packagePrefix="Tests\" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/carbonphp/carbon-doctrine-types" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/doctrine/deprecations" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/octane" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpstan/phpdoc-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/psr-http-message-bridge" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/wb-api-master/application/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
