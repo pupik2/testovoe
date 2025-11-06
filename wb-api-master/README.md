@@ -3,8 +3,9 @@
 
 ### Тестовое API на фреймворке Laravel
 
-Загрузил бд вот сюда https://dash.infinityfree.com/accounts/if0_40348748/databases
-ник lesha.parkhomenko.04@mail.ru
-пароль testovoe_zadanie1
+
+# Загрузил бд вот сюда https://dash.infinityfree.com/accounts/if0_40348748/databases
+# ник lesha.parkhomenko.04@mail.ru
+# пароль testovoe_zadanie1
 
 Изменил dockerfile, чтобы запустить на своей машине. Сделал команду по выгрузки данных из postman.
