@@ -2,6 +2,9 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Account;
+use App\Models\Data;
+use Illuminate\Http\Client\ConnectionException;
 use App\Models\Income;
 use App\Models\Order;
 use App\Models\Sale;
@@ -16,7 +19,8 @@ class FetchApiData extends Command
     protected $signature = 'api:fetch {entity : Тип данных (sales, incomes, stocks, orders)}
                                       {--from= : Дата начала в формате Y-m-d}
                                       {--to= : Дата конца в формате Y-m-d}
-                                      {--limit=500 : Количество записей на страницу (max 500)}';
+                                      {--limit=500 : Количество записей на страницу (max 500)}
+                                      {data извлечение данных из api для всех акков}';
 
     protected $description = 'Загружает данные';
 

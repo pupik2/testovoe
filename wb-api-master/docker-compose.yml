@@ -1,7 +1,16 @@
-version: '3.5'
+networks:
+    cluster:
+        name: cluster
+        external: true
+        driver: bridge
+
+volumes:
+    mysql_data:
+        driver: local
 
 services:
     app:
+        container_name: apptestovoe
         build: ./docker/images/php81
         volumes:
             - ./application:/app
@@ -9,9 +18,21 @@ services:
             - "6969:8000"
         networks:
             - cluster
-networks:
-    cluster:
-        name: cluster
-        external: true
-        driver: bridge
+        depends_on:
+            -   testovoe
 
+
+    testovoe:
+        container_name: testovoe
+        image: mysql:8.0
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: root
+          MYSQL_DATABASE: testovoe
+        ports:
+            - "3307:3307"
+        volumes:
+            - mysql_data:/var/lib/mysql
+        command: --default-authentication-plugin=mysql_native_password --port=3307
+        networks:
+            - cluster
