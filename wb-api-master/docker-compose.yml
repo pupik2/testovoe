@@ -10,6 +10,7 @@ volumes:
 
 services:
     app:
+        command: sh -c "php artisan octane:start --server=swoole --host=0.0.0.0 --port=8000 & php artisan schedule:work"
         container_name: apptestovoe
         build: ./docker/images/php81
         volumes:

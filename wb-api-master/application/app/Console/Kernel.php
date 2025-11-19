@@ -16,6 +16,11 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+        $schedule->command('fetch:data')
+            ->twiceDaily(10, 22)
+            ->timezone(config('app.timezone'))
+            ->withoutOverlapping()
+            ->runInBackground();
     }
 
     /**
