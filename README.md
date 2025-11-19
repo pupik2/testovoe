@@ -25,3 +25,8 @@
 <img width="1280" height="690" alt="изображение" src="https://github.com/user-attachments/assets/52787590-f898-4d1b-96b7-92cccd61adf2" />
 логи ошибки 429
 <img width="1280" height="348" alt="изображение" src="https://github.com/user-attachments/assets/9f937599-49ea-4f60-8b4b-82d2f9620c5a" />
+создание таблицы аккаунта
+<img width="1280" height="211" alt="изображение" src="https://github.com/user-attachments/assets/ba328e52-e978-4a81-98ba-6c8242d7cc56" />
+<img width="1280" height="172" alt="изображение" src="https://github.com/user-attachments/assets/3aa5877f-a158-4d2b-82ab-fa101fbfa287" />
+<img width="1280" height="118" alt="изображение" src="https://github.com/user-attachments/assets/1c042254-cbf2-4b73-a9f9-74ce447f7e99" />
+<img width="1280" height="572" alt="изображение" src="https://github.com/user-attachments/assets/6239bce2-774c-4a8f-b0e4-45dddefe4463" />
