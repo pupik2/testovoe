@@ -182,19 +182,19 @@ class FetchData extends Command
                         $itemDate = Carbon::parse($itemDateStr)->startOfDay();
                         $itemDateSql = $itemDate->toDateString();
 
-                        // Находим максимальную дату для этой пары (без учёта даты)
+
                         $latestForKey = Data::where('account_id', $account->id)
                             ->where('external_id', (string)$extId)
                             ->where('metric_name', (string)$metricName)
                             ->max('date'); // может быть null
 
                         if ($latestForKey && Carbon::parse($latestForKey)->startOfDay()->greaterThan($itemDate)) {
-                            // входящая дата меньше уже записанной — пропускаем
+
                             $this->line("Skip outdated: {$itemDateSql} < {$latestForKey} (ext_id={$extId}, metric={$metricName})");
                             continue;
                         }
 
-                        // Записываем по ключу (account_id, external_id, date, metric_name)
+
                         Data::updateOrCreate(
                             [
                                 'account_id' => $account->id,
